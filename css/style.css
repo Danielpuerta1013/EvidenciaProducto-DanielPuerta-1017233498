@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+aside{
+    height: 170vh;
+    width: 30%;
+    background-color: #1c2a4f;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contenedor_img{
+    height: 25%;
+    width: 55%;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 30px;
+    border: 7px solid #ccc;
+    padding: 5px;
+    margin: 10px;
+    box-sizing: content-box;
+}
+.img_perfil{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+}
+.descripcion{
+    width: 70%;
+    color: white;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenido_contacto{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.contacto_text{
+    width: 85%;
+    color: black;
+    border: yellow solid 1px;
+    background-color: yellow;
+    padding: 20px;
+    margin: 30px;
+}
+
+.datos_contacto{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+.contenido_educacion{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.educacion_text{
+    
+    width: 85%;
+    color: black;
+    border: yellow solid 1px;
+    background-color: yellow;
+    padding: 20px;
+    margin: 30px;
+    
+}
+
+.titulos_edu{    
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.info_edu{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+
+}
+main{
+    width: 70%;
+    height: 170%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.contenedor_nombre{
+    width: 70%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.titulo_principal{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-bottom: 15px;    
+    
+}
+.cargo{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+} 
