@@ -49,6 +49,7 @@ aside{
     background-color: yellow;
     padding: 20px;
     margin: 30px;
+    text-align: center;
 }
 
 .datos_contacto{
@@ -71,6 +72,7 @@ aside{
     background-color: yellow;
     padding: 20px;
     margin: 30px;
+    text-align: center;
     
 }
 
@@ -99,13 +101,14 @@ main{
     justify-content: space-around;
     align-items: center;
     gap: 5px;
+    margin-bottom: 10px;
 }
 .contenedor_nombre{
     width: 70%;
     height: 20%;
     display: flex;
     flex-direction: column;
-    
+    text-align: center;
 }
 .titulo_principal{
     color: black;
