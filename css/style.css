@@ -117,4 +117,43 @@ main{
 .cargo{
     color: black;
     font-family: Arial, Helvetica, sans-serif;
-} 
+}
+.contenido_experiencia{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.experiencia_text{
+    width: 95%;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: solid 3px #1c2a4f;    
+    padding: 15px;
+    margin: 30px;
+}
+.expe1{
+    width: 95%;
+}
+.titulo_prof{
+    width: 95%;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 5px;
+    
+}
+.lugar_trabajo{
+    width: 95%;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin: 5px;
+}
+.funciones{
+    width: 95%;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;    
+    margin: 5px;
+}
