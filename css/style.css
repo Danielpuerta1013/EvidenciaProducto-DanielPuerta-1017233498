@@ -98,7 +98,7 @@ main{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    
+    gap: 5px;
 }
 .contenedor_nombre{
     width: 70%;
